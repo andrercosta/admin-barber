@@ -1,4 +1,7 @@
-{
+import type { MetadataRoute } from 'next'
+ 
+export default function manifest(): MetadataRoute.Manifest {
+  return {
     "name": "Barber Shop",
     "short_name": "Barber Shop",
     "description": "Barber Shop",
@@ -18,4 +21,5 @@
             "type": "image/png"
         }
     ]
+}
 }
