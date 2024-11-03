@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./page.module.css";
+import { Text } from "@chakra-ui/react";
 
 export default function Home() {
   return (
   <main >
     <div >
-      <h1>
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+     <Text fontSize="6xl">Home</Text>
       </div>
     </main>
   );
